@@ -7,6 +7,7 @@ export default function Help() {
       <p>Voici la liste des commandes disponibles : </p>
       <ul className='commandList'>
         <li><p className='commandTitleHelp'>clear</p><p>Efface la liste des commandes effectuées</p></li>
+        <li><p className='commandTitleHelp'>cv</p><p>Visionner mon cv</p></li>
         <li><p className='commandTitleHelp'>help</p><p>Montre toutes les commandes disponibles</p></li>
         <li><p className='commandTitleHelp'>link</p><p>[github/linkedin]: Montre les liens de mon github ou linkedin</p></li>
         <li><p className='commandTitleHelp'>name</p><p>Accédez à quelques informations sur moi</p></li>

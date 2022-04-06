@@ -56,3 +56,14 @@ p{
 .commandApp::-webkit-scrollbar {
   display: none;
 }
+
+.cv-container{
+  border: 1px solid rgba(255, 255, 255, 0.687);
+  padding: 20px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

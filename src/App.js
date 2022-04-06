@@ -6,6 +6,7 @@ import Error from './components/Error';
 import Help from './components/Help';
 import Link from './components/Link';
 import Source from './components/Source';
+import Cv from './components/Cv'
 
 function App() {
 
@@ -42,6 +43,10 @@ function App() {
         
         case 'clear':
           setArray([])
+          break;
+
+        case 'cv':
+          setArray([...array, <Cv/>])
           break;
 
         case 'link github':
